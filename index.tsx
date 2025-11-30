@@ -110,10 +110,10 @@ const App = () => {
                 <Download size={20} />
                 Download APK
               </a>
-              <button className="flex items-center justify-center gap-3 bg-white/5 text-white border border-white/10 px-8 py-4 rounded-2xl font-semibold hover:bg-white/10 transition-all">
+              <a href="#features" className="flex items-center justify-center gap-3 bg-white/5 text-white border border-white/10 px-8 py-4 rounded-2xl font-semibold hover:bg-white/10 transition-all">
                 <Smartphone size={20} />
                 View Features
-              </button>
+              </a>
             </div>
 
             <div className="pt-8 flex items-center justify-center lg:justify-start gap-6 text-brand-muted text-sm">
