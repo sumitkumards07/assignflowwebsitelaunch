@@ -78,12 +78,13 @@ const App = () => {
             <a href="#ai-quiz" className="hover:text-brand-orange transition-colors">AI Quiz</a>
             <a href="#faq" className="hover:text-brand-orange transition-colors">FAQ</a>
           </div>
-          <button 
-            onClick={scrollToDownload}
+          <a 
+            href="/app-release.apk"
+            download
             className="bg-white text-brand-dark px-5 py-2 rounded-full font-semibold text-sm hover:bg-brand-orange hover:text-white transition-all duration-300"
           >
             Download App
-          </button>
+          </a>
         </div>
       </nav>
 
@@ -110,10 +111,10 @@ const App = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <button onClick={scrollToDownload} className="flex items-center justify-center gap-3 bg-brand-orange text-white px-8 py-4 rounded-2xl font-semibold hover:bg-orange-600 transition-all transform hover:scale-105 shadow-lg shadow-orange-500/20">
+              <a href="/app-release.apk" download className="flex items-center justify-center gap-3 bg-brand-orange text-white px-8 py-4 rounded-2xl font-semibold hover:bg-orange-600 transition-all transform hover:scale-105 shadow-lg shadow-orange-500/20">
                 <Download size={20} />
                 Download APK
-              </button>
+              </a>
               <button className="flex items-center justify-center gap-3 bg-white/5 text-white border border-white/10 px-8 py-4 rounded-2xl font-semibold hover:bg-white/10 transition-all">
                 <Smartphone size={20} />
                 View Features
@@ -708,7 +709,7 @@ const App = () => {
                         Join thousands of students using Assign Flow to organize their academic life.
                     </p>
                     <div className="flex justify-center">
-                        <button className="bg-black text-white px-10 py-5 rounded-2xl font-bold text-xl flex items-center justify-center gap-4 hover:bg-gray-900 transition shadow-2xl hover:-translate-y-1 transform border border-white/10 group">
+                        <a href="/app-release.apk" download className="bg-black text-white px-10 py-5 rounded-2xl font-bold text-xl flex items-center justify-center gap-4 hover:bg-gray-900 transition shadow-2xl hover:-translate-y-1 transform border border-white/10 group">
                             <div className="bg-white/10 p-3 rounded-full group-hover:bg-brand-orange transition-colors duration-300">
                                 <Download size={32} className="text-white" />
                             </div>
@@ -716,7 +717,7 @@ const App = () => {
                                 <div className="text-xs font-medium uppercase text-gray-400 tracking-wider mb-0.5">Direct Download</div>
                                 <div>Download .APK</div>
                             </div>
-                        </button>
+                        </a>
                     </div>
                     <p className="mt-8 text-white/60 text-sm font-medium bg-black/20 inline-block px-4 py-2 rounded-full backdrop-blur-sm border border-white/5">
                         <span className="w-2 h-2 bg-green-400 rounded-full inline-block mr-2"></span>
