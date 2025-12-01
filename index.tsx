@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { createRoot } from 'react-dom/client';
+import { Analytics } from "@vercel/analytics/react";
 import {
   CheckCircle2,
   Clock,
@@ -753,6 +754,7 @@ const App = () => {
           </div>
         </div>
       </footer>
+      <Analytics />
     </div>
   );
 };
