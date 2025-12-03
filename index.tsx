@@ -94,7 +94,7 @@ const App = () => {
           <div className="space-y-8 text-center lg:text-left">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 text-brand-orange text-sm font-medium animate-fade-in-up">
               <Zap size={14} fill="currentColor" />
-              <span>v1.0 Now Available on Android</span>
+              <span>v1.0.2 Now Available on Android</span>
             </div>
             <h1 className="text-5xl lg:text-7xl font-bold leading-tight tracking-tight">
               Focus better.<br />
