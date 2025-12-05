@@ -117,6 +117,10 @@ const App = () => {
               </a>
             </div>
 
+            <p className="text-xs text-brand-muted mt-4 max-w-md mx-auto lg:mx-0 opacity-80">
+              <span className="text-brand-orange font-bold">Note:</span> Your browser may warn that this file is harmful. This is standard for apps downloaded outside the Play Store. It is safe to proceed.
+            </p>
+
             <div className="pt-8 flex items-center justify-center lg:justify-start gap-6 text-brand-muted text-sm">
               <div className="flex items-center gap-2">
                 <CheckCircle2 size={16} className="text-brand-orange" />
@@ -718,6 +722,9 @@ const App = () => {
               <p className="mt-8 text-white/60 text-sm font-medium bg-black/20 inline-block px-4 py-2 rounded-full backdrop-blur-sm border border-white/5">
                 <span className="w-2 h-2 bg-green-400 rounded-full inline-block mr-2"></span>
                 Requires Android 8.0+
+              </p>
+              <p className="mt-4 text-white/50 text-xs max-w-md mx-auto">
+                <span className="text-white/80 font-bold">Note:</span> Your browser may warn that this file is harmful. This is standard for direct downloads. It is safe to proceed.
               </p>
             </div>
           </div>
