@@ -96,18 +96,18 @@ const App = () => {
               <Zap size={14} fill="currentColor" />
               <span>v1.0.2 Now Available on Android</span>
             </div>
-            <h1 className="text-5xl lg:text-7xl font-bold leading-tight tracking-tight">
+            <h1 className="text-5xl lg:text-7xl font-bold leading-tight tracking-tight animate-fade-in-up delay-100">
               Focus better.<br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-orange to-red-500">
                 Study smarter.
               </span>
             </h1>
-            <p className="text-xl text-brand-muted max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+            <p className="text-xl text-brand-muted max-w-2xl mx-auto lg:mx-0 leading-relaxed animate-fade-in-up delay-200">
               The all-in-one productivity app that combines a Pomodoro timer, task manager, and an AI tutor that turns your PDF notes into quizzes instantly.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <a href="/app-release.apk" download className="flex items-center justify-center gap-3 bg-brand-orange text-white px-8 py-4 rounded-2xl font-semibold hover:bg-orange-600 transition-all transform hover:scale-105 shadow-lg shadow-orange-500/20">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start animate-fade-in-up delay-300">
+              <a href="/app-release.apk" download className="flex items-center justify-center gap-3 bg-brand-orange text-white px-8 py-4 rounded-2xl font-semibold hover:bg-orange-600 transition-all transform hover:scale-105 shadow-lg shadow-orange-500/20 animate-pulse-glow">
                 <Download size={20} />
                 Download APK
               </a>
@@ -138,7 +138,7 @@ const App = () => {
           </div>
 
           {/* CSS Phone Mockup */}
-          <div className="relative mx-auto lg:mr-0 flex flex-col items-center">
+          <div className="relative mx-auto lg:mr-0 flex flex-col items-center animate-float">
 
             <div className="mb-4 text-center">
               <span className="text-sm font-medium text-brand-muted uppercase tracking-widest">A quick look inside the app</span>
